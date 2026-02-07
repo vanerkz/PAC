@@ -1,4 +1,4 @@
-#Harnessing Forecast Uncertainty in Deep Learning for Time Series Anomaly Detection with Posterior Distribution Scoring
+# Harnessing Forecast Uncertainty in Deep Learning for Time Series Anomaly Detection with Posterior Distribution Scoring
 
 Conferance paper published in ISCAS 2025 link https://ieeexplore.ieee.org/abstract/document/11043371
 
