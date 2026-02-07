@@ -2,7 +2,7 @@
 
 This repository is based on our **ISCAS 2025** conference paper:
 
-**Harnessing Forecast Uncertainty in Deep Learning for Time Series Anomaly Detection with Posterior Distribution Scoring**
+**Harnessing Forecast Uncertainty in Deep Learning for Time Series Anomaly Detection with Posterior Distribution Scoring (PAC)**
 📄 *IEEE ISCAS 2025*
 🔗 [https://ieeexplore.ieee.org/abstract/document/11043371](https://ieeexplore.ieee.org/abstract/document/11043371)
 
@@ -26,12 +26,12 @@ Our main insight is that **probabilistic forecasting models already contain rich
 
 ### Extensions with FiLM and FreTS
 
-In this work, we incorporate and evaluate:
+In this work, we incorporate PAC with the following TSF model:
 
-* **FiLM (Feature-wise Linear Modulation)**
+* **FiLM**
   🔗 [https://github.com/tianzhou2011/FiLM](https://github.com/tianzhou2011/FiLM)
 
-* **FreTS (Frequency-domain Transformer for Time Series)**
+* **FreTS**
   🔗 [https://github.com/aikunyi/FreTS](https://github.com/aikunyi/FreTS)
 
 By integrating **FiLM** and **FreTS** with **PAC**, we demonstrate that:
@@ -39,16 +39,3 @@ By integrating **FiLM** and **FreTS** with **PAC**, we demonstrate that:
 * PAC is **model-agnostic**
 * Advanced TSF architectures can be **directly leveraged for TSAD**
 * Forecasting improvements translate into **better anomaly detection performance**
-
-Our results show consistent improvements, confirming that **state-of-the-art TSF models can be effectively repurposed for TSAD through PAC**.
-
----
-
-### Contributions
-
-* Introduce **Posterior Anomaly Criteria (PAC)** for uncertainty-aware TSAD
-* Bridge **probabilistic forecasting** and **anomaly detection**
-* Demonstrate PAC’s compatibility with modern TSF models (FiLM, FreTS)
-* Validate improvements on benchmark datasets
-
----
